@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Center the logo vertically */
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    margin-right: 10px; /* Add some space between the logo and the navigation links */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Center the navigation links vertically */
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #fc0303; /* Adjust the color for the hover effect */
+}
+
+.content-box {
+    width: 80%;
+    height: 500px; /* Set the height of the box */
+    margin: 50px auto; /* Center the box on the page */
+    background-color: #fff; /* Set the background color for the box */
+    border-radius: 15px; /* Set rounded corners */
+    overflow: hidden; /* Ensure the corners are rounded even with content inside */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    display: flex;
+}
+
+.text {
+    padding: 20px;
+    flex-grow: 1; /* Allow the text to grow and fill the available space */
+	width: 100%;
+}
+
+img {
+    width:50%; /* Adjust the size of the image */
+    height: 100%; /* Set the height of the image to 100% of the container */
+    object-fit: cover; /* Ensure the image covers the entire space */
+    border-top-right-radius: 15px; /* Set rounded corners only to the top-right */
+    border-bottom-right-radius: 15px; /* Set rounded corners only to the bottom-right */
+}
+
+h2 {
+    color: #333; /* Set the text color for the title */
+}
+
+p {
+    color: #666; /* Set the text color for the paragraph */
+	  width: 50%;
+}
+
+.border-animation {
+    position: absolute;
+    top: 124px;
+    left: 155px ;
+    width: 80%;
+    height: 500px;
+	
+    border: 4px solid transparent; /* Set initial transparent border */
+    box-sizing: border-box;
+    border-radius: 15px;
+    animation: borderAnimation 4s infinite linear; /* Animation properties */
+	
+}
+
+
+
+
+
